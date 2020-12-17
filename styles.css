@@ -29,6 +29,11 @@ form { font-family: 'Oswald', sans-serif; font-weight: 500;
       color: white; background-color: rgb(251, 176, 59);
       padding: 20px;} 
 
+.submit { background: transparent;
+          border: 0;
+          font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 15px;
+          color: rgb(237, 28, 36);}
+
 .button-reset {
   background: transparent;
   border: 0;
@@ -50,15 +55,17 @@ form { font-family: 'Oswald', sans-serif; font-weight: 500;
   padding: 24px 18px; 
   font-family: 'Oswald', sans-serif; font-weight: 700;
   position: relative; 
-  top: 220px;
+  top: 325px;
+  left: 225px;
   
   
 } 
-.purchaseimg { width: 100px;}
+.purchaseimg { width: 75px;}
 .purchase { position: fixed; 
-            bottom: 100px; 
-            rig
-}
+            bottom: 50px; 
+            right: 20px;
+            background: transparent; 
+            border: 0; }
 
 
 
