@@ -90,7 +90,8 @@ form { font-family: 'Oswald', sans-serif;
             border: 0; } 
 
 main {text-align: center;
-      vertical-align: top;} 
+      vertical-align: top;
+      } 
 
 
 .content { width: 300px;
@@ -105,14 +106,14 @@ fieldset { border: none;
           color: white;} 
 
 .checkout { position: relative; 
-            left: 200px;} 
+            left: 20px;} 
 
 .id { position: relative; 
-      left: 200px; 
+      left: 20px; 
       top: -20px;} 
 
 .payment { position: relative; 
-          left: 395px;
+          left: 200px;
           top: -265px;}
 
 .purchasetix { color: rgb(68, 57, 64); } 
@@ -152,7 +153,7 @@ body {margin: 0;}
 .speaker-details .button {
   bottom: 0;} 
 
-@media (max-width:700px) {
+ 
 .sidebar,
   main {
     display: inline-block;
@@ -163,20 +164,24 @@ body {margin: 0;}
     width: 300px;
   }
 
-  main {
+  @media (min-width:700px) {main {
     width: calc(100% - 306px);
   }
   .checkout { position: relative; 
-            left: 20px;} 
+            left: 200px;} 
 
 .id { position: relative; 
-      left: 20px; 
+      left: 200px; 
       top: -20px;} 
 
 .payment { position: relative; 
-          left: 150px;
+          left: 395px;
           top: -265px;}
 }
+
+
+
+
 
 
 
