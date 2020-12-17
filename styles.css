@@ -89,7 +89,8 @@ form { font-family: 'Oswald', sans-serif;
             background: transparent; 
             border: 0; } 
 
-main {text-align: center;} 
+main {text-align: center;
+      vertical-align: top;} 
 
 
 .content { width: 300px;
@@ -130,6 +131,21 @@ body {margin: 0;}
   position: absolute;} 
 
 .designerbiojc {width: 500px; 
+                position: relative; 
+                bottom: 300px;
+                left: 75px;} 
+
+.designerbiobk {width: 500px; 
+                position: relative; 
+                bottom: 300px;
+                left: 75px;} 
+
+.designerbiong {width: 500px; 
+                position: relative; 
+                bottom: 300px;
+                left: 75px;} 
+
+.designerbiosk {width: 500px; 
                 position: relative; 
                 bottom: 300px;
                 left: 75px;} 
