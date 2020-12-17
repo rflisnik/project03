@@ -130,12 +130,12 @@
           <footer class="designerfooter"> For more information, please visit <a href="http://www.artnet.com/artists/barbara-kruger/"> Barbara Kruger's ArtNet page</a> </footer></li>
         <li>
           <div class="speakerdetails">
-            <button type="button" class="button">
+            <button type="button" class="button js-toggle" aria-controls="speaker-guerriero">
           NICOLE GUERRIERO
           
           </button>
         <img src="https://cdn.glitch.com/880db4f1-e059-4f38-b845-ad2307b0e837%2FnicoleE.jpg?v=1607635857708" alt="Makeup Artist Nicole Guerriero's face. She is visibly white-passing. She has a full face of 'natural' makeup. She is smiling amd has dimples. Her hair is long and brown.">
-          <p class="designerbio">
+          <p id="speaker-guerriero" class="designerbio" hidden>
             Makeup and beauty guru with an enormous social media following who was named Ryan Seacrest Best 
             Beauty Guru of 2013. She runs a blog called Naturally Nicole where she posts tutorials, DIYs, reviews, 
             and fashion blogs. She worked at a multitude of restaurant jobs, including 5 years working at BJ&apos;s Brewhouse, 
@@ -144,11 +144,11 @@
           </div>
           <footer class="designerfooter">For more information, please visit<a href="https://www.youtube.com/user/nguerriero19"> Nicole Guerriero's Youtube page</a></footer></li>
         <li> <div class="speakerdetails">
-          <button type="button" class="button">SOLANGE KNOWLES
+          <button type="button" class="button js-toggle" aria-controls="speaker-knowles">SOLANGE KNOWLES
           
           </button>
         <img src="https://cdn.glitch.com/880db4f1-e059-4f38-b845-ad2307b0e837%2FsolangeE.jpg?v=1607635859858" alt="Solange Knowles staring directly at the camera with a straight face. Her demeanor is a mix between calm and direct. She is visibly Black. She has long coarse, wavy black hair. Her eccentric dangling earrings are hidden in her hair. She has large eyes which slightly pop out of her head, and her eyebrows are thick.">
-          <p class="designerbio">
+          <p id="speaker-knowles" class="designerbio" hidden>
             Solange Piaget Knowles is an American singer, songwriter, record producer, performance artist, and actress. 
             Expressing an interest in music from an early age, Knowles had several temporary stints as a backup dancer 
             for Destiny&apos;s Child, which featured her elder sister, Beyoncé Knowles, among its members, before signing 
@@ -218,5 +218,28 @@
   <footer class="copyright">©2020 KOOKING IN THE KITCHEN: WOMEN REDESIGNING DESIGN</footer>
     
   </div>
+
+<script>
+    // the classname in the ("") must match the class on each button element
+    const toggles = document.querySelectorAll(".js-toggle");
+    for (let toggle of toggles) {
+      toggle.onclick = () => {
+        // figure out which element this particular button controls
+        let target = toggle.getAttribute("aria-controls");
+        let targetEl = document.getElementById(target);
+
+        // figure out if the target element is currently hidden
+        let targetHidden = targetEl.hidden;
+        if (targetHidden) {
+          // if this is currently hidden, now show it
+          targetEl.hidden = false;
+        } else {
+          // otherwise, hide it
+          targetEl.hidden = true;
+        }
+      }
+    }
+  </script> 
+
 </body>
 </html>
