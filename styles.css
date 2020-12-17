@@ -1,16 +1,18 @@
 h1 {font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 40px; color: rgb(251, 176, 59); 
-    line-spacing: 5px;
+    line-height: 45px;
     position: relative; bottom: 50px;}
 
 .logo { width: 100px;
         position: relative; 
         top: 50px;}
 
-nav { font-family: 'Oswald', sans-serif; font-weight: 500;}
+nav { font-family: 'Oswald', sans-serif; font-weight: 500;} 
 
-h2 { font-family: 'Oswald', sans-serif; font-weight: 700;} 
+li { list-style: none;}
 
-header { font-family: 'Oswald', sans-serif; font-weight: 500;}
+h2 { font-family: 'Oswald', sans-serif; font-weight: 700; color: rgb(237,28,36);} 
+
+header { font-family: 'Oswald', sans-serif; font-weight: 500; color: rgb(158, 0, 93);}
 
 p { font-family: 'Oswald', sans-serif; font-weight: 100;} 
 
@@ -18,7 +20,7 @@ footer { font-family: 'Oswald', sans-serif;}
 
 h3 { font-family: 'Oswald', sans-serif; font-weight: 500;}
 
-form { font-family: 'Oswald', sans-serif; font-weight: 500;} 
+form { font-family: 'Oswald', sans-serif; font-weight: 500; background-color: } 
 
 .jc { 
   background-color: none;
