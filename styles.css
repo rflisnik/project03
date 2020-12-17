@@ -26,7 +26,7 @@ footer { font-family: 'Oswald', sans-serif;
 h3 { font-family: 'Oswald', sans-serif; font-weight: 500; color: rgb(158,0, 93);}
 
 form { font-family: 'Oswald', sans-serif; font-weight: 500; 
-      color: white; background-color: rgb(251, 176, 59);
+      color: rgb(251, 176, 59); background-color: white;
       padding: 20px;} 
 
 .submit { background: transparent;
@@ -70,7 +70,24 @@ form { font-family: 'Oswald', sans-serif; font-weight: 500;
 main { width: 700px;
       text-align: center;
       position: relative; 
-      }
+      right: -300px;
+      top: -2200px; 
+      } 
+
+.content { width: 300px; 
+            padding: 25px;
+            background-color: rgb(251, 176,59);} 
+
+.end {position: relative; 
+      top: -2216px;
+      background-color: rgb(251, 176, 59);
+      padding: 25px;} 
+
+fieldset { width: 200px;}
+
+.copyright { position: absolute; 
+            top: 3530px;
+            width:}
 
 
 
