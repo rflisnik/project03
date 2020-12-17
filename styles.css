@@ -129,10 +129,10 @@ body {margin: 0;}
 .designerbio {
   position: absolute;} 
 
-.designerbio {position: absolute;
-  top: 900px;
-  left: 100px;
-  right: 10px;} 
+.designerbiojc {width: 500px; 
+                position: relative; 
+                bottom: 300px;
+                left: 75px;} 
 
 .speaker-details .button {
   bottom: 0;} 
