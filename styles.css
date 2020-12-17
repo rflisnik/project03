@@ -10,6 +10,11 @@ nav { font-family: 'Oswald', sans-serif; font-weight: 500;
       font-size: 25px;
       }
 
+.nav { background-color: rgb(251, 176, 59);
+        color: white; 
+        padding: 25px; 
+        width: 300px;}
+
 li { list-style: none;}
 
 h2 { font-family: 'Oswald', sans-serif; font-weight: 700; color: rgb(237,28,36);} 
@@ -74,7 +79,11 @@ main { width: 700px;
       top: -2200px; 
       } 
 
-.content { width: 300px; 
+.designerbio { position: relative; 
+              top: -250px; 
+              left: 25px;}
+
+.content { width: 300px;
             padding: 25px;
             background-color: rgb(251, 176,59);} 
 
@@ -111,7 +120,7 @@ fieldset {width: 330px;
 
 .copyright { position: absolute; 
             top: 3530px;
-            width:}
+            text-align: center;}
 
 
 
