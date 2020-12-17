@@ -152,9 +152,9 @@
   <div class="end">
     
   
-  <form> 
+  <form class="formend"> 
     <label for="purchase tickets page"> PURCHASE TICKETS</label><br>
-    <p>
+    <p class="purchasetix">
       Each ticket comes with one full day of admission. The cost of each ticket is the same no matter the day of attendance, 
       or events scheduled that day. <strong>DISCLAIMER:</strong> One ticket will only grant you one day of admission. If you wish to attend multiple dates, 
       you must purchase multiple tickets. <strong>Each ticket costs $50</strong> and covers one person for a full day of activities. 50% of the proceeds from 
@@ -167,7 +167,10 @@
     <input type="checkbox" id="thursday"> <label>Thursday May 20th 2021</label><br>
     <input type="checkbox" id="friday"><label>Friday May 21st 2021</label><br>
       <input type="checkbox" id="saturday"><label>Saturday May 22nd 2021</label><br></fieldset>
-    <h2>CHECKOUT</h2><br>
+    <h2 class="checkout">CHECKOUT</h2><br>
+    
+    <div class="id">
+      
     <label for="name">NAME</label><br> 
     <input type="text" id="name"><br>
     <label for="address">ADDRESS</label><br> 
@@ -178,6 +181,11 @@
     <input type="text" id="state"><br>
     <label for="zipcode">ZIPCODE</label><br> 
     <input type="text" id="zipcode"><br>
+      
+    </div>
+    
+    <div class="payment">
+      
     <label for="card number">CARD NUMBER</label><br> 
     <input type="text" id="card number"><br>
     <label for="expiration date">EXP DATE</label><br> 
@@ -185,7 +193,8 @@
     <label for="CVV number">CVV</label><br> 
     <input type="text" id="cvv number"><br>
     <input type="submit" id="confirm" class="submit">
-    </p>
+    
+    </div>
   </form> 
   
   <button type="button" class="purchase">

@@ -17,7 +17,7 @@ h2 { font-family: 'Oswald', sans-serif; font-weight: 700; color: rgb(237,28,36);
 header { font-family: 'Oswald', sans-serif; font-weight: 500; color: rgb(158, 0, 93);}
 
 p { font-family: 'Oswald', sans-serif; font-weight: 100;
-    color: rgb(68, 57, 64);} 
+    color: white;} 
 
 footer { font-family: 'Oswald', sans-serif;
         background-color: rgb(237,28,36); color: white;
@@ -70,7 +70,7 @@ form { font-family: 'Oswald', sans-serif; font-weight: 500;
 main { width: 700px;
       text-align: center;
       position: relative; 
-      right: -300px;
+      right: -310px;
       top: -2200px; 
       } 
 
@@ -83,7 +83,31 @@ main { width: 700px;
       background-color: rgb(251, 176, 59);
       padding: 25px;} 
 
-fieldset { width: 200px;}
+fieldset {width: 330px; 
+          border: none; 
+          background-color: rgb(251, 176, 59);
+          color: white;
+          position: relative; 
+          left: 350px;
+          top: -278px;} 
+
+.checkout { position: relative; 
+            left: 355px;
+            top: -280px;} 
+
+.id { position: relative; 
+      left: 355px; 
+      top: -300px;} 
+
+.payment { position: relative; 
+          left: 550px;
+          top: -545px;}
+
+.purchasetix { color: rgb(68, 57, 64); 
+                width: 300px;
+              } 
+
+.formend { height: 500px;}
 
 .copyright { position: absolute; 
             top: 3530px;
