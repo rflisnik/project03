@@ -6,6 +6,7 @@ h1 {font-family: 'Oswald', sans-serif;
     }
 
 .logo { width: 100px;
+        vertical-align: middle;
         }
 
 nav { font-family: 'Oswald', sans-serif; 
@@ -80,9 +81,7 @@ form { font-family: 'Oswald', sans-serif;
   position: relative;
       top: 325px;
       left: 10px; 
-  
-  
-} 
+  } 
 .purchaseimg { width: 75px;}
 .purchase { position: fixed; 
             bottom: 50px; 
@@ -90,36 +89,19 @@ form { font-family: 'Oswald', sans-serif;
             background: transparent; 
             border: 0; } 
 
-main { width: 700px;
-      text-align: center;
-      position: relative; 
-      right: -310px;
-      top: -2200px; 
-      } 
+main {text-align: center;} 
 
-.designerbio { position: relative; 
-              top: -250px; 
-              left: 25px;}
-
-.designerfooter { position: relative; 
-                  top:-100px;}
 
 .content { width: 300px;
             padding: 25px;
             background-color: rgb(251, 176,59);} 
 
-.end {position: relative; 
-      top: -2216px;
-      background-color: rgb(251, 176, 59);
+.end {background-color: rgb(251, 176, 59);
       padding: 25px;} 
 
-fieldset {width: 330px; 
-          border: none; 
+fieldset { border: none; 
           background-color: rgb(251, 176, 59);
-          color: white;
-          position: relative; 
-          left: 350px;
-          top: -278px;} 
+          color: white;} 
 
 .checkout { position: relative; 
             left: 355px;
@@ -133,15 +115,45 @@ fieldset {width: 330px;
           left: 550px;
           top: -545px;}
 
-.purchasetix { color: rgb(68, 57, 64); 
-                width: 300px;
-              } 
+.purchasetix { color: rgb(68, 57, 64); } 
 
-.formend { height: 500px;}
+body {margin: 0;} 
 
-.copyright { position: absolute; 
-            top: 3530px;
-            text-align: center;} 
+.speaker-details {
+  position: relative;} 
+
+.speaker-details img {
+  max-width: 100%;} 
+
+.speaker-details .button,
+.designerbio {
+  position: absolute;} 
+
+.designerbio {position: absolute;
+  top: 900px;
+  left: 100px;
+  right: 10px;} 
+
+.speaker-details .button {
+  bottom: 0;} 
+
+@media (min-width:700px) {
+.sidebar,
+  main {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .sidebar {
+    width: 300px;
+  }
+
+  main {
+    width: calc(100% - 306px);
+  }
+}
+
+
 
 
 
