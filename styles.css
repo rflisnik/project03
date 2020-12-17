@@ -20,14 +20,9 @@ footer { font-family: 'Oswald', sans-serif;}
 
 h3 { font-family: 'Oswald', sans-serif; font-weight: 500;}
 
-form { font-family: 'Oswald', sans-serif; font-weight: 500; background-color: } 
+form { font-family: 'Oswald', sans-serif; font-weight: 500; 
+      color: white; background-color: rgb(251, 176, 59);
+      padding: 20px;} 
 
-.jc { 
-  background-color: none;
-  border: none;
-  font-family: 'Oswald', sans-serif; font-weight: 500;
-  color: white;
-  padding: 25px;
-  text-align: center;
-  font-size: 16px;}
+
 
