@@ -83,6 +83,9 @@ main { width: 700px;
               top: -250px; 
               left: 25px;}
 
+.designerfooter { position: relative; 
+                  top:-100px;}
+
 .content { width: 300px;
             padding: 25px;
             background-color: rgb(251, 176,59);} 
