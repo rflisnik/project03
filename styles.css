@@ -14,15 +14,20 @@ h2 { font-family: 'Oswald', sans-serif; font-weight: 700; color: rgb(237,28,36);
 
 header { font-family: 'Oswald', sans-serif; font-weight: 500; color: rgb(158, 0, 93);}
 
-p { font-family: 'Oswald', sans-serif; font-weight: 100;} 
+p { font-family: 'Oswald', sans-serif; font-weight: 100;
+    color: rgb(68, 57, 64);} 
 
-footer { font-family: 'Oswald', sans-serif;}
+footer { font-family: 'Oswald', sans-serif;
+        background-color: rgb(237,28,36); color: white;
+        padding: 20px;}
 
-h3 { font-family: 'Oswald', sans-serif; font-weight: 500;}
+h3 { font-family: 'Oswald', sans-serif; font-weight: 500; color: rgb(158,0, 93);}
 
 form { font-family: 'Oswald', sans-serif; font-weight: 500; 
       color: white; background-color: rgb(251, 176, 59);
       padding: 20px;} 
+
+button { button-reset;}
 
 
 
