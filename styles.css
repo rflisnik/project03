@@ -8,7 +8,7 @@ h1 {font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 40px; color:
 
 nav { font-family: 'Oswald', sans-serif; font-weight: 500;
       font-size: 25px;
-      } 
+      }
 
 li { list-style: none;}
 
@@ -65,7 +65,12 @@ form { font-family: 'Oswald', sans-serif; font-weight: 500;
             bottom: 50px; 
             right: 20px;
             background: transparent; 
-            border: 0; }
+            border: 0; } 
+
+main { width: 700px;
+      text-align: center;
+      position: relative; 
+      }
 
 
 
