@@ -1,4 +1,6 @@
-h1 {font-family: 'Oswald', sans-serif; font-weight: 700;}
+h1 {font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 35px; position: relative; top: 100px;}
+
+.logo { width: 100px;}
 
 nav { font-family: 'Oswald', sans-serif; font-weight: 500;}
 
@@ -17,10 +19,9 @@ form { font-family: 'Oswald', sans-serif; font-weight: 500;}
 .jc { 
   background-color: none;
   border: none;
+  font-family: 'Oswald', sans-serif; font-weight: 500;
   color: white;
-  padding: 15px 32px;
+  padding: 25px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;}
 
