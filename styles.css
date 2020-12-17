@@ -105,16 +105,15 @@ fieldset { border: none;
           color: white;} 
 
 .checkout { position: relative; 
-            left: 355px;
-            top: -280px;} 
+            left: 200px;} 
 
 .id { position: relative; 
-      left: 355px; 
-      top: -300px;} 
+      left: 200px; 
+      top: -20px;} 
 
 .payment { position: relative; 
-          left: 550px;
-          top: -545px;}
+          left: 395px;
+          top: -265px;}
 
 .purchasetix { color: rgb(68, 57, 64); } 
 
@@ -153,7 +152,7 @@ body {margin: 0;}
 .speaker-details .button {
   bottom: 0;} 
 
-@media (min-width:700px) {
+@media (max-width:700px) {
 .sidebar,
   main {
     display: inline-block;
@@ -167,6 +166,16 @@ body {margin: 0;}
   main {
     width: calc(100% - 306px);
   }
+  .checkout { position: relative; 
+            left: 20px;} 
+
+.id { position: relative; 
+      left: 20px; 
+      top: -20px;} 
+
+.payment { position: relative; 
+          left: 150px;
+          top: -265px;}
 }
 
 
