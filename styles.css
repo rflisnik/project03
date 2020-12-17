@@ -8,7 +8,7 @@ h1 {font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 40px; color:
 
 nav { font-family: 'Oswald', sans-serif; font-weight: 500;
       font-size: 25px;
-      align: center;} 
+      } 
 
 li { list-style: none;}
 
@@ -53,6 +53,11 @@ form { font-family: 'Oswald', sans-serif; font-weight: 500;
   top: 220px;
   
   
+} 
+.purchaseimg { width: 100px;}
+.purchase { position: fixed; 
+            bottom: 100px; 
+            rig
 }
 
 
