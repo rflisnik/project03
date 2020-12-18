@@ -1,0 +1,189 @@
+h1 {font-family: 'Oswald', sans-serif; 
+  font-weight: 700; 
+  font-size: 40px; 
+  color: rgb(251, 176, 59); 
+  margin:0;
+    }
+
+.logo { width: 100px;
+        vertical-align: middle;
+        }
+
+nav { font-family: 'Oswald', sans-serif; 
+      font-weight: 500;
+      font-size: 25px;
+      }
+
+.nav { background-color: rgb(237, 28, 36);
+        color: white; 
+        padding: 25px; 
+        }
+
+li { list-style: none;}
+
+h2 { font-family: 'Oswald', sans-serif; 
+    font-weight: 700; 
+    color: rgb(237,28,36);} 
+
+header { font-family: 'Oswald', sans-serif; 
+        font-weight: 500; 
+        color: rgb(158, 0, 93);}
+
+p { font-family: 'Oswald', sans-serif; 
+    font-weight: 100;
+    color: white;} 
+
+footer { font-family: 'Oswald', sans-serif;
+        background-color: rgb(237,28,36); 
+        color: white;
+        padding: 20px;}
+
+h3 { font-family: 'Oswald', sans-serif; 
+    font-weight: 500; 
+    color: rgb(158,0, 93);}
+
+form { font-family: 'Oswald', sans-serif; 
+      font-weight: 500; 
+      color: rgb(251, 176, 59); 
+      background-color: white;
+      padding: 20px;} 
+
+.submit { background: transparent;
+          border: 0;
+          font-family: 'Oswald', sans-serif; 
+          font-weight: 700; 
+          font-size: 15px;
+          color: rgb(237, 28, 36);}
+
+.button-reset {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  text-align: inherit;
+} 
+
+.button {
+  background-color: transparent;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 1px;
+  padding: 24px 18px; 
+  font-family: 'Oswald', sans-serif; font-weight: 700;
+  position: relative; 
+  top: 325px;
+  left: 10px;
+  position: relative;
+      top: 325px;
+      left: 10px; 
+  } 
+.purchaseimg { width: 75px;}
+.purchase { position: fixed; 
+            bottom: 50px; 
+            right: 20px;
+            background: transparent; 
+            border: 0; } 
+
+main {text-align: center;
+      vertical-align: top;
+      } 
+
+
+.content { width: 300px;
+            padding: 25px;
+            background-color: rgb(251, 176,59);} 
+
+.end {background-color: rgb(251, 176, 59);
+      padding: 25px;} 
+
+fieldset { border: none; 
+          background-color: rgb(251, 176, 59);
+          color: white;} 
+
+.checkout { position: relative; 
+            left: 20px;} 
+
+.id { position: relative; 
+      left: 20px; 
+      top: -20px;} 
+
+.payment { position: relative; 
+          left: 200px;
+          top: -265px;}
+
+.purchasetix { color: rgb(68, 57, 64); } 
+
+body {margin: 0;} 
+
+.speaker-details {
+  position: relative;} 
+
+.speaker-details img {
+  max-width: 100%;} 
+
+.speaker-details .button,
+.designerbio {
+  position: absolute;} 
+
+.designerbiojc {width: 500px; 
+                position: relative; 
+                bottom: 300px;
+                left: 75px;} 
+
+.designerbiobk {width: 500px; 
+                position: relative; 
+                bottom: 300px;
+                left: 75px;} 
+
+.designerbiong {width: 500px; 
+                position: relative; 
+                bottom: 300px;
+                left: 75px;} 
+
+.designerbiosk {width: 500px; 
+                position: relative; 
+                bottom: 300px;
+                left: 75px;} 
+
+.speaker-details .button {
+  bottom: 0;} 
+
+ 
+.sidebar,
+  main {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .sidebar {
+    width: 300px;
+  }
+
+  @media (min-width:700px) {main {
+    width: calc(100% - 306px);
+  }
+  .checkout { position: relative; 
+            left: 200px;} 
+
+.id { position: relative; 
+      left: 200px; 
+      top: -20px;} 
+
+.payment { position: relative; 
+          left: 395px;
+          top: -265px;}
+}
+
+
+
+
+
+
+
+
+
